@@ -1,6 +1,6 @@
 CL
 - 1.0v : Skeleton Code of PrecomputedVisibilityGrid2D Node.
-- 
+- 1.1v : WIP
 
 https://technology.riotgames.com/news/demolishing-wallhacks-valorants-fog-war
 <br/>
