@@ -22,6 +22,6 @@ $TODO LIST
 - Add Static/Dormancy Actor func
 - Enable Pause Replication to reduce actor's respawn overhead
 - Process to block MulticastRPC when enemy actor is hiding
-- If we don't see enemy actor, should still hear its sound
+- Even if we can't see enemy actor, we should still be able to hear its sound
 - To reduce memory footprint, need to compress FIntPoint into other data structure like one-dimentional uint16..
 - porting to Iris's Dynamic Filter in the future
