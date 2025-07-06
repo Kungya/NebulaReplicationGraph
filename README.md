@@ -23,5 +23,5 @@ $TODO LIST
 - Enable Pause Replication to reduce actor's respawn overhead
 - Process to block MulticastRPC when enemy actor is hiding
 - Even if we can't see enemy actor, should still be able to hear its sound
-- To reduce memory footprint, need to compress Cell Index's type size; like FIntPoint into other data structure like one-dimentional uint16..
+- To reduce memory footprint, need to compress Cell Index's type size; FIntPoint into other data structure like one-dimentional uint16..
 - porting to Iris's Dynamic Filter in the future
