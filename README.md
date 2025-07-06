@@ -4,8 +4,9 @@
 
 
 $TODO LIST
-- Generate detailed Visibility Info in PVSLookupTable
+- Generate detailed Visibility Info in PVSLookupTable (heuristic, terribly need a lot of work even though now's spatialbias is -600)
 - Add Static/Dormancy Actor func
-- (optional) Enable Pause Replication to reduce Spawn/Destroy overhead
+- Enable Pause Replication to reduce actor's respawn overhead
 - Process to block MulticastRPC when enemy actor is hiding
 - To reduce memory footprint, need to compress FIntPoint into other data structure like one-dimentional uint16..
+- porting to Iris's Dynamic Filter in the future
