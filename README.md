@@ -10,7 +10,7 @@ Simple Precomputed Visibility FogOfWar (PVS) using ReplicationGrpah.
 
 
 $TODO LIST
-- Generate detailed Visibility Info in PVSLookupTable (heuristic, terribly need a lot of work even though now's spatialbias is -600)
+- Generate detailed Visibility Info in PVSLookupTable (heuristic, terribly need a lot of work even though current GridCells' count is 7x7)
 - Add Static/Dormancy Actor func
 - Enable Pause Replication to reduce actor's respawn overhead
 - Process to block MulticastRPC when enemy actor is hiding
