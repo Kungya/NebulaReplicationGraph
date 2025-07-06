@@ -1,4 +1,6 @@
-1.0v Skeleton Code of PrecomputedVisibilityGrid2D Node.
+CL
+- 1.0v : Skeleton Code of PrecomputedVisibilityGrid2D Node.
+- 
 
 https://technology.riotgames.com/news/demolishing-wallhacks-valorants-fog-war
 <br/>
