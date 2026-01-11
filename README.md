@@ -12,11 +12,12 @@ https://technology.riotgames.com/news/demolishing-wallhacks-valorants-fog-war
 Simple Precomputed Visibility FogOfWar (Potentially Visible Set) using ReplicationGrpah.
 - Inspired by Valorant and Dave Ratti's Approach.
 
-Instead of naive collision detection using raycasts, we use the character's WorldLocation to determine the GridCell it belongs to. Each frame, we track the position of the Dynamic Actor to determine if the GridCell it belongs to has changed. We query the LookupTable corresponding to the GridCell it belongs to, returning a list of potentially visible GridCells. We replicate the Actors within that GridCell.
-The LookupTable only needs to be precomputed once. Various methods exist, including precomputing the specified pivot points in each cell by raycasting between them, and then manually correcting any missing GridCells. If the number of pivot points is too large, precomputing them is computationally expensive. Therefore, we haven't found a fully automated precomputation method. There's a trade-off between the number of pivot points and the precomputation time.
-<br/>
-<br/>
 
+Instead of naive collision detection using raycasts, we use the character's WorldLocation to determine the GridCell it belongs to. <br/>Each frame, we track the position of the Dynamic Actor to determine if the GridCell it belongs to has changed. We query the LookupTable corresponding to the GridCell it belongs to, returning a list of potentially visible GridCells. We replicate the Actors within that GridCell. <br/>
+The LookupTable only needs to be precomputed once. Various methods exist, including precomputing the specified pivot points in each cell by raycasting between them, and then manually correcting any missing GridCells. 
+<br/>If the number of pivot points is too large, precomputing them is computationally expensive. Therefore, we haven't found a fully automated precomputation method. There's a trade-off between the number of pivot points and the precomputation time.
+<br/>
+<br/>
 
 
 
